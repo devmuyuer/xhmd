@@ -1,0 +1,33 @@
+.title{
+  padding: 20 0rpx;
+  font: 300 14px/16px 微软雅黑, simhei;
+  padding-bottom: 5rpx;
+  font-weight:bold;
+  /* border-bottom: 1px solid #84754e; */
+}
+.title2{
+  padding-top: 20rpx;
+  font: 300 18px/20px 微软雅黑, simhei;
+}
+.info{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font: 300 12px/14px 微软雅黑, simhei;
+}
+
+.info p{
+  font-weight:bold;
+  border-bottom: 1px solid #84754e;
+}
+
+.info span i{
+  font-weight:bold;
+}
+
+.container{
+  padding: 0;
+  font-size: 12;
+}
+.con{
+  padding: 20rpx;
+}

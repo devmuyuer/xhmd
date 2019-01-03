@@ -1,0 +1,78 @@
+.title{
+  padding: 20 0rpx;
+  font: 300 14px/16px 微软雅黑, simhei;
+  padding-bottom: 5rpx;
+  font-weight:bold;
+  /* border-bottom: 1px solid #84754e; */
+}
+.span2{
+  padding: 20 0rpx;
+  font: 300 14px/16px 微软雅黑, simhei;
+  padding-bottom: 5rpx;
+  font-weight:bold;
+  color: red;
+  /* border-bottom: 1px solid #84754e; */
+}
+.h40{
+height: 40rpx;  
+}
+.span8{
+  padding-top: 40rpx;
+  font: 300 38px/40px 华文行楷, simhei;
+  padding-bottom: 5rpx;
+  font-weight:bold;
+  /* border-bottom: 1px solid #84754e; */
+}
+.title2{
+  padding-top: 20rpx;
+  font: 300 18px/20px 微软雅黑, simhei;
+}
+.info{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font: 300 12px/14px 微软雅黑, simhei;
+}
+
+.info p{
+  font-weight:bold;
+  border-bottom: 1px solid #84754e;
+}
+
+.info span i{
+  font-weight:bold;
+}
+
+.container{
+  padding: 0;
+  font-size: 12;
+}
+.con{
+  padding: 20rpx;
+  font: 300 12px/14px 微软雅黑, simhei;
+}
+
+.table {
+border: 1px solid #dadada;
+border-right: 0;
+border-bottom: 0;
+width: 98%;
+}
+
+.tr {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.th, .td {
+padding: 10px;
+border-bottom: 1px solid #dadada;
+border-right: 1px solid #dadada;
+text-align: center;
+width: 100%;
+}
+
+.th {
+font-weight: 400;
+background-color: #ffffff;
+}

@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/base/base",
+    "pages/info/info",
+    "pages/proc/proc",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "祥禾牡丹",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#FF962F",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "statics/images/index.png",
+        "iconPath": "statics/images/index1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "statics/images/proc.png",
+        "iconPath": "statics/images/proc1.png",
+        "pagePath": "pages/proc/proc",
+        "text": "产品介绍"
+      },
+      {
+        "selectedIconPath": "statics/images/info.png",
+        "iconPath": "statics/images/info1.png",
+        "pagePath": "pages/info/info",
+        "text": "关于我们"
+      },
+      {
+        "selectedIconPath": "statics/images/my.png",
+        "iconPath": "statics/images/my1.png",
+        "pagePath": "pages/my/my",
+        "text": "联系我们"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

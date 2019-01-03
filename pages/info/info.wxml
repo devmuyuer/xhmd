@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <swiper style="width: {{imagewidth}}px; height: {{imageheight}}px;" indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>        
+          <image style="width: {{imagewidth}}px; height: {{imageheight}}px;" bindload="imageLoad" src="{{item}}"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="title2">
+      <text>凉山祥禾牡丹农业开发有限公司</text>    
+    </view>
+　<view class="con">
+    <view class="title">
+      <text>企业简介</text>    
+    </view>
+    <view class="info">
+      <text>　　本公司成立于2015年12月，坐落于千年文化古城《国家木本油料示范县》会理县。是一家以木本油料作物推广，种植，产品研发，深加工及销售为一体的专业化公司。</text>
+    </view> 
+
+    <view class="title">
+      <text>企业使命</text>    
+    </view>
+    <view class="info">
+      <text>　　创一流高端保健食用油品牌，树立完美企业形象</text>
+    </view>
+
+    <view class="title">
+      <text>企业目标</text>    
+    </view>
+    <view class="info">
+      <text>　　创中国名牌、出世界精品。</text>
+    </view>
+
+    <view class="title">
+      <text>企业理念</text>    
+    </view>
+    <view class="info">
+      <text>　　夯实绿色根基，生产天然，绿色的高端保健食用油。</text>
+    </view>
+
+    <view class="title">
+      <text>企业宗旨</text>    
+    </view>
+    <view class="info">
+      <text>　　以人为本，诚信 、团结、务实 、创新、进取，回报社会。</text>
+    </view>
+
+  <view class="title">
+      <text>经营方针</text>    
+    </view>
+    <view class="info">
+      <text>　　办实事 ，求实效，带动一个产业，带领一方百姓、互惠互利共创双赢</text>
+    </view>
+  </view>
+</view>
+

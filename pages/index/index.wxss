@@ -1,0 +1,47 @@
+/**index.wxss**/
+.schoollist-head-img{
+  width: 100%;
+  height: 180rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.schoollist{
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+.school-list-info{
+  float: left;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.school-list-photo{
+  width: 350rpx;
+  height: 250rpx;
+}
+.school-list-desc{
+  display: block;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 25rpx;
+  padding: 10rpx;
+  opacity: 0.6;
+}
+
+.container{
+  padding: 0;
+  font-size: 12;
+}
+
+.info{
+  padding-bottom: 5rpx;
+  margin-top: 20rpx;
+  font: 300 14px/16px 微软雅黑, simhei;
+  font-weight:bold;
+  border-bottom: 1px solid #84754e;
+}
